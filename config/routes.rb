@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: "feeds#index"
   get 'users/:user_id/feed' => 'feeds#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
