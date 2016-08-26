@@ -2,7 +2,9 @@ I used the acts_as_relation gem to to Multi Table Inhertiance between Activities
 https://github.com/hzamani/acts_as_relation
 
 
-Check out an Entity Relationship Diagram here: https://www.lucidchart.com/documents/view/90ad3faa-cb48-4bcd-b5e1-98af981ce671
+
+Entity Relationship Diagram: 
+![alt text](https://raw.githubusercontent.com/dladowitz/feeds/master/public/feed.png =1000x)
 
 
 Or check out a live version at: 
