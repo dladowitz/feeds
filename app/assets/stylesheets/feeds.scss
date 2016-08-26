@@ -1,0 +1,17 @@
+// Place all the styles related to the Feeds controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.feed {
+  width: 400px;
+  margin: 50px;
+}
+
+@keyframes blink {
+   50% { border-color: #ff0000; }
+}
+
+.update { /*or other element you want*/
+    animation: blink .5s step-end infinite alternate;
+}

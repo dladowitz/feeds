@@ -1,0 +1,17 @@
+%h1= "Activty Feed for #{@user.first_name}"
+
+.feed
+  %ul.list-group
+    - @activities.each do |activity|
+      - if activity.is_a? Update
+        %li.list-group-item.list-group-item-success.update
+          Update:
+          = activity.html
+      - elsif activity.is_a? Comment
+        %li.list-group-item.list-group-item-info.comment
+          Comment:
+          = activity.text
+      - else
+        %li.list-group-item.list-group-item-warning.mile
+          Milestone: Amount Reached -
+          = activity.amount_reached

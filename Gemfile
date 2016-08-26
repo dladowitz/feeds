@@ -3,15 +3,16 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.4'
 
 gem 'active_record-acts_as' # Brings in multi-table inheritance for activites
-gem 'bootstrap-sass', '3.1.1.1'
+gem 'bootstrap-sass', '~> 3.3.6'
 gem 'bcrypt'
 gem 'coffee-rails'
 gem 'haml-rails'
-gem 'sass-rails'
+gem 'sass-rails', '>= 3.2'
 gem 'simple_form'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'sqlite3'
+gem 'turbolinks'
 # gem 'pg'
 
 group :development do
