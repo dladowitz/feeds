@@ -11,9 +11,9 @@ gem 'sass-rails', '>= 3.2'
 gem 'simple_form'
 gem 'uglifier'
 gem 'jquery-rails'
-gem 'sqlite3'
 gem 'turbolinks'
-# gem 'pg'
+gem 'pg'
+# gem 'sqlite3'
 
 group :development do
   gem 'thin'
