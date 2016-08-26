@@ -4,7 +4,7 @@ https://github.com/hzamani/acts_as_relation
 
 
 Entity Relationship Diagram: 
-![alt text](https://raw.githubusercontent.com/dladowitz/feeds/master/public/feed.png =1000x)
+![alt text](https://raw.githubusercontent.com/dladowitz/feeds/master/public/feed.png)
 
 
 Or check out a live version at: 
