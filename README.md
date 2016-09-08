@@ -1,5 +1,5 @@
 I used the acts_as_relation gem to to Multi Table Inhertiance between Activities and Updates, Comments and Milesontes
-https://github.com/hzamani/acts_as_relation
+https://github.com/hzamani/active_record-acts_as
 
 
 
